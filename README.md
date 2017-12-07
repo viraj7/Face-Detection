@@ -5,6 +5,7 @@
 3) Run train.py using: 'python3 train.py --logtostderr --train_dir=training --pipeline_config_path=training/ssd_mobilenet_v1_pets.config'
 
 After Training:-
+
 python3 export_inference_graph.py \
     --input_type image_tensor \
     --pipeline_config_path training/ssd_mobilenet_v1_pets.config \
